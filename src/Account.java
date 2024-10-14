@@ -4,7 +4,7 @@ public class Account {
     double balance;
 
     public void display(){
-        System.out.println(name + " (" + address + ") имеет на счету $" + balance);
+        System.out.print(name + " (" + address + ") имеет на счету $" + balance);
     }
 
     public double getInterest(double percentageRate){
